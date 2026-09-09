@@ -1,0 +1,783 @@
+{
+  "categoryMeta": {
+    "pratos": {
+      "name": "Pratos",
+      "subtitle": "Sabores da casa, preparados para chegar à mesa com alma.",
+      "image": "assets/categoria-2.jpg"
+    },
+    "funje": {
+      "name": "Funje",
+      "subtitle": "Clássicos da cozinha angolana com acompanhamentos cheios de sabor.",
+      "image": "assets/categoria-3.jpg"
+    },
+    "garrafas": {
+      "name": "Garrafas & Doses",
+      "subtitle": "Opções para acompanhar a experiência Nayuka.",
+      "image": "assets/categoria-4.jpg"
+    },
+    "petiscos": {
+      "name": "Petiscos",
+      "subtitle": "Para partilhar, petiscar e prolongar a conversa.",
+      "image": "assets/categoria-5.jpg"
+    },
+    "bebidas": {
+      "name": "Bebidas",
+      "subtitle": "Bebidas, sumos, refrigerantes e cafetaria.",
+      "image": "assets/categoria-6.jpg"
+    },
+    "lanches": {
+      "name": "Lanches",
+      "subtitle": "Sandes, hambúrgueres e opções rápidas à moda da casa.",
+      "image": "assets/categoria-7.jpg"
+    },
+    "grelhados": {
+      "name": "Grelhados & Acompanhamentos",
+      "subtitle": "Grelhados generosos e acompanhamentos para completar o prato.",
+      "image": "assets/categoria-8.jpg"
+    }
+  },
+  "products": [
+    [
+      "bitoque",
+      "Bitoque",
+      "9.000 Kz",
+      "pratos",
+      "Bitoque servido à moda da casa."
+    ],
+    [
+      "picanha-brasileira",
+      "Picanha à Brasileira",
+      "15.000 Kz",
+      "pratos",
+      "Picanha acompanhada com os sabores clássicos da casa."
+    ],
+    [
+      "febras",
+      "Febra de Panela, Batata Corada e Arroz",
+      "10.000 Kz",
+      "pratos",
+      "Febras de panela com batata corada e arroz."
+    ],
+    [
+      "peixe-grelhado",
+      "Arroz de Feijão, Peixe Grelhado, Salada, Batatas Fritas",
+      "8.000 Kz",
+      "pratos",
+      "Uma combinação completa com peixe grelhado."
+    ],
+    [
+      "churrasco-feijao",
+      "Churrasco, Batatas Fritas, Salada e Arroz de Feijão",
+      "12.000 Kz",
+      "pratos",
+      "Churrasco com acompanhamentos tradicionais."
+    ],
+    [
+      "grelhada-arroz",
+      "Grelhada Mista + Arroz",
+      "17.000 Kz",
+      "pratos",
+      "Seleção de carnes grelhadas com arroz."
+    ],
+    [
+      "churrasco-salada",
+      "Churrasco, Batatas Fritas e Salada",
+      "6.000 Kz",
+      "pratos",
+      "Uma opção simples e saborosa para o dia a dia."
+    ],
+    [
+      "cozido-corvina",
+      "Cozido de Corvina",
+      "9.000 Kz",
+      "pratos",
+      "Corvina preparada em cozido saboroso."
+    ],
+    [
+      "bife-acebolado",
+      "Bife Acebolado",
+      "10.000 Kz",
+      "pratos",
+      "Bife com cebola, preparado à moda da casa."
+    ],
+    [
+      "bife-portuguesa",
+      "Bife à Portuguesa",
+      "12.000 Kz",
+      "pratos",
+      "Bife inspirado no clássico à portuguesa."
+    ],
+    [
+      "picanha-arroz",
+      "Picanha, Arroz, Batatas Fritas e Salada",
+      "13.000 Kz",
+      "pratos",
+      "Picanha com arroz, fritas e salada."
+    ],
+    [
+      "funje-peito",
+      "Funje com Peito Alto e Feijão de Óleo de Palma",
+      "10.000 Kz",
+      "funje",
+      "Funje acompanhado de peito alto e feijão de óleo de palma."
+    ],
+    [
+      "funje-carne-seca",
+      "Funje com Calulú de Carne Seca e Feijão de Óleo de Palma",
+      "12.000 Kz",
+      "funje",
+      "Calulú de carne seca, funje e feijão de óleo de palma."
+    ],
+    [
+      "funje-cabidela",
+      "Funje com Cabidela e Feijão de Óleo de Palma",
+      "9.000 Kz",
+      "funje",
+      "Cabidela com funje e feijão de óleo de palma."
+    ],
+    [
+      "funje-tirinhas",
+      "Funje com Tirinhas de Carne de Vaca, Molho de Tomate e Couve Salteada",
+      "12.000 Kz",
+      "funje",
+      "Tirinhas de carne de vaca com molho de tomate e couve salteada."
+    ],
+    [
+      "funje-peixe-seco",
+      "Funje com Peixe Seco ao Molho",
+      "6.000 Kz",
+      "funje",
+      "Peixe seco ao molho acompanhado de funje."
+    ],
+    [
+      "funje-kelê",
+      "Funje, Peixe Quele Frito e Kandonda",
+      "6.500 Kz",
+      "funje",
+      "Funje com peixe frito e kandonda."
+    ],
+    [
+      "funje-calulu-peixe",
+      "Funje com Calulú de Peixe",
+      "9.000 Kz",
+      "funje",
+      "Calulú de peixe acompanhado de funje."
+    ],
+    [
+      "funje-missoji",
+      "Funje com Missoji e Kandonda",
+      "5.000 Kz",
+      "funje",
+      "Preparação tradicional com missoji e kandonda."
+    ],
+    [
+      "champanhe-jcl",
+      "Champanhe J.C. Le Roux",
+      "13.000 Kz",
+      "garrafas",
+      "Garrafa."
+    ],
+    [
+      "moscato",
+      "Moscato",
+      "15.000 Kz",
+      "garrafas",
+      "Garrafa."
+    ],
+    [
+      "amarula",
+      "Amarula",
+      "15.000 Kz",
+      "garrafas",
+      "Garrafa."
+    ],
+    [
+      "bee-vock",
+      "Beevock",
+      "Preço não informado",
+      "garrafas",
+      "Consultar disponibilidade e preço."
+    ],
+    [
+      "escape-vodka-preta",
+      "Escape Vodka Preta",
+      "Preço não informado",
+      "garrafas",
+      "Consultar disponibilidade e preço."
+    ],
+    [
+      "escape-vodka-chocolate",
+      "Escape Vodka Chocolate",
+      "Preço não informado",
+      "garrafas",
+      "Consultar disponibilidade e preço."
+    ],
+    [
+      "sao-domingos",
+      "São Domingos",
+      "22.000 Kz",
+      "garrafas",
+      "Garrafa."
+    ],
+    [
+      "jameson",
+      "Jameson",
+      "Preço não informado",
+      "garrafas",
+      "Consultar disponibilidade e preço."
+    ],
+    [
+      "white-horse",
+      "White Horse",
+      "Preço não informado",
+      "garrafas",
+      "Consultar disponibilidade e preço."
+    ],
+    [
+      "1920",
+      "1920",
+      "Preço não informado",
+      "garrafas",
+      "Consultar disponibilidade e preço."
+    ],
+    [
+      "imperial-blue",
+      "Imperial Blue",
+      "Preço não informado",
+      "garrafas",
+      "Consultar disponibilidade e preço."
+    ],
+    [
+      "gin-gordon",
+      "Gin Gordon",
+      "10.000 Kz",
+      "garrafas",
+      "Garrafa."
+    ],
+    [
+      "porta-tapada",
+      "Porta Tapada",
+      "8.000 Kz",
+      "garrafas",
+      "Garrafa."
+    ],
+    [
+      "valmonte",
+      "Valmonte",
+      "1.000 Kz",
+      "garrafas",
+      "Garrafa."
+    ],
+    [
+      "vinho-fresco",
+      "Vinho Fresco",
+      "2.500 Kz",
+      "garrafas",
+      "Garrafa."
+    ],
+    [
+      "dose-1920-simples",
+      "1920 — Simples",
+      "2.000 Kz",
+      "garrafas",
+      "Dose simples."
+    ],
+    [
+      "dose-1920-duplo",
+      "1920 — Duplo",
+      "4.000 Kz",
+      "garrafas",
+      "Dose dupla."
+    ],
+    [
+      "dose-gin-simples",
+      "Gin Gordon — Simples",
+      "1.000 Kz",
+      "garrafas",
+      "Dose simples."
+    ],
+    [
+      "dose-gin-duplo",
+      "Gin Gordon — Duplo",
+      "2.000 Kz",
+      "garrafas",
+      "Dose dupla."
+    ],
+    [
+      "dose-imperial-simples",
+      "Imperial Blue — Simples",
+      "2.000 Kz",
+      "garrafas",
+      "Dose simples."
+    ],
+    [
+      "dose-imperial-duplo",
+      "Imperial Blue — Duplo",
+      "4.000 Kz",
+      "garrafas",
+      "Dose dupla."
+    ],
+    [
+      "dose-jameson-simples",
+      "Jameson — Simples",
+      "2.500 Kz",
+      "garrafas",
+      "Dose simples."
+    ],
+    [
+      "dose-jameson-duplo",
+      "Jameson — Duplo",
+      "5.000 Kz",
+      "garrafas",
+      "Dose dupla."
+    ],
+    [
+      "dose-white-horse-simples",
+      "White Horse — Simples",
+      "2.000 Kz",
+      "garrafas",
+      "Dose simples."
+    ],
+    [
+      "dose-white-horse-duplo",
+      "White Horse — Duplo",
+      "4.000 Kz",
+      "garrafas",
+      "Dose dupla."
+    ],
+    [
+      "dose-escape-simples",
+      "Escape Vodka — Simples",
+      "1.500 Kz",
+      "garrafas",
+      "Dose simples."
+    ],
+    [
+      "dose-escape-duplo",
+      "Escape Vodka — Duplo",
+      "3.000 Kz",
+      "garrafas",
+      "Dose dupla."
+    ],
+    [
+      "dose-sao-domingos-simples",
+      "São Domingos — Simples",
+      "3.000 Kz",
+      "garrafas",
+      "Dose simples."
+    ],
+    [
+      "dose-sao-domingos-duplo",
+      "São Domingos — Duplo",
+      "6.000 Kz",
+      "garrafas",
+      "Dose dupla."
+    ],
+    [
+      "chourico",
+      "Chouriço à Moda da Casa",
+      "4.000 Kz",
+      "petiscos",
+      "Chouriço preparado à moda da casa."
+    ],
+    [
+      "frango-passarinhos",
+      "Frango a Passarinho à Moda da Casa",
+      "5.000 Kz",
+      "petiscos",
+      "Frango a passarinho preparado à moda da casa."
+    ],
+    [
+      "moela",
+      "Moela Estufada, Batatas Fritas e Salada",
+      "6.500 Kz",
+      "petiscos",
+      "Moela estufada com batatas fritas e salada."
+    ],
+    [
+      "asinhas",
+      "Asinhas Panadas à Moda da Casa e Batatas Fritas e Salada",
+      "7.000 Kz",
+      "petiscos",
+      "Asinhas panadas com batatas fritas e salada."
+    ],
+    [
+      "espetada-vaca",
+      "Espetada de Carne de Vaca Acebolada",
+      "5.000 Kz",
+      "petiscos",
+      "Carne de vaca acebolada em espetada."
+    ],
+    [
+      "espetada-porco",
+      "Espetada de Carne de Porco Acebolada",
+      "5.000 Kz",
+      "petiscos",
+      "Carne de porco acebolada em espetada."
+    ],
+    [
+      "espetada-moelas",
+      "Espetada de Moelas Acebolada",
+      "4.000 Kz",
+      "petiscos",
+      "Moelas aceboladas em espetada."
+    ],
+    [
+      "churrasco-casa",
+      "Churrasco à Moda da Casa",
+      "6.000 Kz",
+      "petiscos",
+      "Churrasco preparado à moda da casa."
+    ],
+    [
+      "frango-inteiro",
+      "Churrasco de Frango Inteiro",
+      "15.000 Kz",
+      "petiscos",
+      "Frango inteiro grelhado."
+    ],
+    [
+      "galinha-gentia",
+      "Galinha Gentia, Batatas Fritas e Saladas",
+      "15.000 Kz",
+      "petiscos",
+      "Galinha gentia com batatas fritas e saladas."
+    ],
+    [
+      "meio-frango",
+      "Churrasco Meio Frango",
+      "8.000 Kz",
+      "petiscos",
+      "Meio frango grelhado."
+    ],
+    [
+      "pate-atum",
+      "Patê de Atum",
+      "5.000 Kz",
+      "petiscos",
+      "Patê de atum."
+    ],
+    [
+      "pica-pau",
+      "Pica-Pau",
+      "8.000 Kz",
+      "petiscos",
+      "Pica-pau à moda da casa."
+    ],
+    [
+      "cerveja-lata",
+      "Cervejas em Lata",
+      "700 Kz",
+      "bebidas",
+      "Seleção de cervejas em lata."
+    ],
+    [
+      "cerveja-garrafa",
+      "Cervejas em Garrafa",
+      "500 Kz",
+      "bebidas",
+      "Seleção de cervejas em garrafa."
+    ],
+    [
+      "smirnoff-garrafa",
+      "Smirnoff em Garrafa",
+      "700 Kz",
+      "bebidas",
+      "Garrafa."
+    ],
+    [
+      "savana-garrafa",
+      "Savana em Garrafa",
+      "1.200 Kz",
+      "bebidas",
+      "Garrafa."
+    ],
+    [
+      "yolo-garrafa",
+      "Yolo em Garrafa",
+      "1.000 Kz",
+      "bebidas",
+      "Garrafa."
+    ],
+    [
+      "smirnoff-lata",
+      "Smirnoff em Lata",
+      "1.000 Kz",
+      "bebidas",
+      "Lata."
+    ],
+    [
+      "gin-gordon-lata",
+      "Gin Gordon em Lata",
+      "1.000 Kz",
+      "bebidas",
+      "Lata."
+    ],
+    [
+      "yolo-lata",
+      "Yolo em Lata",
+      "1.000 Kz",
+      "bebidas",
+      "Lata."
+    ],
+    [
+      "codys-vodka",
+      "Cody's Vody",
+      "1.800 Kz",
+      "bebidas",
+      "Bebida em lata."
+    ],
+    [
+      "heineken",
+      "Heineken",
+      "1.500 Kz",
+      "bebidas",
+      "Bebida em lata/garrafa."
+    ],
+    [
+      "redbull",
+      "Redbull",
+      "1.800 Kz",
+      "bebidas",
+      "Energético."
+    ],
+    [
+      "sumo-simples",
+      "Sumos Simples",
+      "3.500 Kz",
+      "bebidas",
+      "Sumo natural simples."
+    ],
+    [
+      "mistura-sabores",
+      "Mistura de Sabores",
+      "5.000 Kz",
+      "bebidas",
+      "Mistura de sabores."
+    ],
+    [
+      "casosa-garrafa",
+      "Casosas em Garrafa",
+      "500 Kz",
+      "bebidas",
+      "Refrigerante em garrafa."
+    ],
+    [
+      "casosa-lata",
+      "Casosas em Lata",
+      "800 Kz",
+      "bebidas",
+      "Refrigerante em lata."
+    ],
+    [
+      "compal-lata",
+      "Sumo Compal em Lata",
+      "1.000 Kz",
+      "bebidas",
+      "Sumo em lata."
+    ],
+    [
+      "compal-grande",
+      "Sumo Compal Grande",
+      "2.000 Kz",
+      "bebidas",
+      "Sumo grande."
+    ],
+    [
+      "lulu-palinha",
+      "Sumo Lulu Palinha",
+      "300 Kz",
+      "bebidas",
+      "Sumo pequeno."
+    ],
+    [
+      "lulu-grande",
+      "Sumo Lulu Grande",
+      "1.800 Kz",
+      "bebidas",
+      "Sumo grande."
+    ],
+    [
+      "agua-grande",
+      "Água Grande",
+      "600 Kz",
+      "bebidas",
+      "Água mineral."
+    ],
+    [
+      "agua-pequena",
+      "Água Pequena",
+      "250 Kz",
+      "bebidas",
+      "Água mineral."
+    ],
+    [
+      "cafe-tradicional",
+      "Café Tradicional",
+      "1.200 Kz",
+      "bebidas",
+      "Café tradicional."
+    ],
+    [
+      "galao",
+      "Galão",
+      "1.500 Kz",
+      "bebidas",
+      "Café com leite."
+    ],
+    [
+      "cha",
+      "Chá",
+      "800 Kz",
+      "bebidas",
+      "Chá."
+    ],
+    [
+      "hamburguer-simples",
+      "Hambúrguer Simples",
+      "3.000 Kz",
+      "lanches",
+      "Hambúrguer simples."
+    ],
+    [
+      "hamburguer-composto",
+      "Hambúrguer Composto",
+      "4.500 Kz",
+      "lanches",
+      "Hambúrguer composto."
+    ],
+    [
+      "omelete-composto",
+      "Omelete Composto",
+      "4.500 Kz",
+      "lanches",
+      "Omelete composto."
+    ],
+    [
+      "sandes-simples",
+      "Sandes Simples",
+      "1.000 Kz",
+      "lanches",
+      "Sandes simples."
+    ],
+    [
+      "sandes-casa",
+      "Sandes à Moda da Casa",
+      "1.800 Kz",
+      "lanches",
+      "Sandes preparada à moda da casa."
+    ],
+    [
+      "baguete-frango",
+      "Baguete de Frango",
+      "3.000 Kz",
+      "lanches",
+      "Baguete recheada com frango."
+    ],
+    [
+      "sandes-composta",
+      "Sandes Composta",
+      "2.500 Kz",
+      "lanches",
+      "Sandes composta."
+    ],
+    [
+      "prego-pao",
+      "Prego no Pão",
+      "4.000 Kz",
+      "lanches",
+      "Prego no pão."
+    ],
+    [
+      "prego-pao-composto",
+      "Prego no Pão Composto",
+      "5.500 Kz",
+      "lanches",
+      "Prego no pão composto."
+    ],
+    [
+      "prego-prato",
+      "Prego no Prato",
+      "8.000 Kz",
+      "lanches",
+      "Prego servido no prato."
+    ],
+    [
+      "tosta",
+      "Tosta",
+      "2.500 Kz",
+      "lanches",
+      "Tosta."
+    ],
+    [
+      "fahita-frango",
+      "Fahita de Frango",
+      "3.500 Kz",
+      "lanches",
+      "Fahita de frango."
+    ],
+    [
+      "fahita-carne",
+      "Fahita de Carne",
+      "4.000 Kz",
+      "lanches",
+      "Fahita de carne."
+    ],
+    [
+      "bifanas",
+      "Bifanas",
+      "5.000 Kz",
+      "lanches",
+      "Bifanas."
+    ],
+    [
+      "grelhada-mista-casa",
+      "Grelhada Mista à Moda da Casa",
+      "16.000 Kz",
+      "grelhados",
+      "Batatas fritas e salada."
+    ],
+    [
+      "grelhada-mista-plus",
+      "Grelhada Mista Plus",
+      "26.000 Kz",
+      "grelhados",
+      "Arroz, feijão preto, batatas fritas, salada e ananás grelhado."
+    ],
+    [
+      "grelhada-mil-maravilhas",
+      "Grelhada Mista Mil Maravilhas",
+      "36.000 Kz",
+      "grelhados",
+      "Arroz, feijão preto, picanha, batatas fritas, salada, bananas fritas, ananás assado, laranja e melancia."
+    ],
+    [
+      "dose-arroz",
+      "Dose de Arroz",
+      "2.000 Kz",
+      "grelhados",
+      "Acompanhamento."
+    ],
+    [
+      "dose-feijao",
+      "Dose de Feijão",
+      "1.500 Kz",
+      "grelhados",
+      "Acompanhamento."
+    ],
+    [
+      "dose-batatas",
+      "Dose de Batatas",
+      "1.500 Kz",
+      "grelhados",
+      "Acompanhamento."
+    ],
+    [
+      "dose-salada",
+      "Dose de Salada",
+      "1.000 Kz",
+      "grelhados",
+      "Acompanhamento."
+    ]
+  ]
+}
