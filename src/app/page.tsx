@@ -22,8 +22,8 @@ export default function Home() {
             <div className="hero-info"><span><Clock3 size={15}/> 08:00–01:00</span><span><MapPin size={15}/> Rotunda do Aeroporto</span></div>
           </div>
           <div className="hero-visual">
-            <div className="hero-card hero-card-main"><Image src="/images/categories/categoria-2.jpg" alt="Pratos Nayuka" fill priority sizes="(max-width: 900px) 90vw, 48vw" /></div>
-            <div className="hero-card hero-card-small"><Image src="/images/categories/categoria-3.jpg" alt="Funje Nayuka" fill sizes="240px" /></div>
+            <div className="hero-card hero-card-main"><Image src="/images/categories/categoria-2.1.jpeg" alt="Pratos Nayuka" fill priority sizes="(max-width: 900px) 90vw, 48vw" /></div>
+            <div className="hero-card hero-card-small"><Image src="/images/categories/categoria-7.1.jpeg" alt="Funje Nayuka" fill sizes="240px" /></div>
             <div className="hero-stamp">SABORES<br/>DA ALMA</div>
           </div>
         </div>
