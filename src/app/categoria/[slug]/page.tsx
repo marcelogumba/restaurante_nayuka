@@ -1,13 +1,115 @@
+
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { categories, categoryMeta, products } from "@/data/menu";
-import { ProductCard } from "@/components/ProductCard";
+import ProductListItem from "@/components/ProductListItem";
 import { notFound } from "next/navigation";
 
-export function generateStaticParams() { return categories.map(c => ({slug:c.slug})); }
-export default async function CategoryPage({ params }: { params: Promise<{slug:string}> }) {
-  const { slug } = await params; const category = categoryMeta[slug]; if (!category) notFound();
-  const items = products.filter(p=>p.category===slug);
-  return <section className="section category-page"><div className="container"><Link className="back-link" href="/cardapio"><ArrowLeft size={16}/> Voltar ao cardápio</Link><div className="category-hero"><div><p className="eyebrow">CATEGORIA</p><h1>{category.name}</h1><p>{category.subtitle}</p></div><div className="category-hero-image"><Image src={`/images/categories/${category.image.split('/').pop()}`} alt="" fill sizes="(max-width: 800px) 100vw, 40vw"/></div></div><div className="results-label">{items.length} itens</div><div className="product-grid">{items.map(p=><ProductCard key={p.id} product={p}/>)}</div><Link className="next-category" href="/cardapio">Explorar todas as categorias <ArrowRight size={17}/></Link></div></section>;
+export function generateStaticParams() {
+  return categories.map((category) => ({
+    slug: category.slug,
+  }));
+}
+
+type CategoryPageProps = {
+  params: Promise<{
+    slug: string;
+  }>;
+};
+
+export default async function CategoryPage({
+  params,
+}: CategoryPageProps) {
+  const { slug } = await params;
+
+  const category = categoryMeta[slug];
+
+  if (!category) {
+    notFound();
+  }
+
+  const items = products.filter(
+    (product) => product.category === slug
+  );
+
+  const imageName = category.image.split("/").pop();
+
+  return (
+    <section className="section category-page">
+      <div className="container">
+
+        {/* Voltar ao cardápio */}
+        <Link className="back-link" href="/cardapio">
+          <ArrowLeft size={16} />
+          Voltar ao cardápio
+        </Link>
+
+        {/* Cabeçalho da categoria */}
+        <div className="category-hero">
+          <div className="category-hero-copy">
+            <p className="eyebrow">NAYUKA · CATEGORIAS</p>
+
+            <h1>{category.name}</h1>
+
+            <p>{category.subtitle}</p>
+
+            <span className="category-item-count">
+              {items.length} opções disponíveis
+            </span>
+          </div>
+
+          <div className="category-hero-image">
+            {imageName && (
+              <Image
+                src={`/images/categories/${imageName}`}
+                alt={category.name}
+                fill
+                priority
+                sizes="(max-width: 800px) 100vw, 50vw"
+              />
+            )}
+          </div>
+        </div>
+
+        {/* Lista de produtos */}
+        <div className="category-products">
+
+          <div className="category-products-heading">
+            <div>
+              <p className="eyebrow">DA NOSSA COZINHA</p>
+              <h2>Escolha o seu favorito.</h2>
+            </div>
+
+            <span>
+              {items.length} {items.length === 1 ? "item" : "itens"}
+            </span>
+          </div>
+
+          <div className="product-list">
+            {items.length > 0 ? (
+              items.map((product) => (
+                <ProductListItem
+                  key={product.id}
+                  product={product}
+                />
+              ))
+            ) : (
+              <p className="empty-category">
+                Ainda não existem produtos nesta categoria.
+              </p>
+            )}
+          </div>
+
+        </div>
+
+        {/* Navegação */}
+        <Link className="next-category" href="/cardapio">
+          Explorar todas as categorias
+          <ArrowRight size={17} />
+        </Link>
+
+      </div>
+    </section>
+  );
 }
